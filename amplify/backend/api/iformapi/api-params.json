@@ -1,0 +1,49 @@
+{
+    "paths": [
+        {
+            "name": "/token",
+            "lambdaFunction": "iformapi",
+            "privacy": {
+                "open": true
+            }
+        },
+        {
+            "name": "/api",
+            "lambdaFunction": "iformapi",
+            "privacy": {
+                "open": true
+            }
+        },
+        {
+            "name": "/echo",
+            "lambdaFunction": "iformapi",
+            "privacy": {
+                "open": true
+            }
+        }
+    ],
+    "resourceName": "iformapi",
+    "apiName": "iformapi",
+    "functionArns": [
+        {
+            "lambdaFunction": "iformapi"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "iform-api-dev-20191210155317-authRole",
+        "unAuthRoleName": "iform-api-dev-20191210155317-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "iformapi",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ],
+    "uuid": "3d32de67"
+}

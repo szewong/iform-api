@@ -1,0 +1,14 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "iform-api-dev-20191210155317-authRole",
+            "UnauthRoleArn": "arn:aws:iam::104381470254:role/iform-api-dev-20191210155317-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::104381470254:role/iform-api-dev-20191210155317-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "iform-api-dev-20191210155317-deployment",
+            "UnauthRoleName": "iform-api-dev-20191210155317-unauthRole",
+            "StackName": "iform-api-dev-20191210155317",
+            "StackId": "arn:aws:cloudformation:us-east-1:104381470254:stack/iform-api-dev-20191210155317/1755e580-1b8f-11ea-85ed-0e353767367b"
+        }
+    }
+}
