@@ -8,7 +8,7 @@
     "axios": "^0.19.0",
     "body-parser": "^1.17.1",
     "express": "^4.15.2",
-    "iformapi-lambda": "^1.0.2"
+    "iformapi-lambda": "^1.1.2"
   },
   "devDependencies": {},
   "scripts": {

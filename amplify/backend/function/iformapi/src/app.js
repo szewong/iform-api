@@ -13,7 +13,7 @@ var express = require('express')
 var bodyParser = require('body-parser')
 var awsServerlessExpressMiddleware = require('aws-serverless-express/middleware')
 
-var iformapi = require('./iformapi-lambda')
+var IformAPI = require('iformapi-lambda');
 
 // declare a new express app
 var app = express()
@@ -58,26 +58,8 @@ app.get('/echo', function(req,res){
   res.json({    success: 'get call succed!', url: req.url  })
 })
 
-app.get('/api/*', function(req,res){
-  iformapi.get(ifbConfig, req, res)
-});
-
-app.post('/api/*', function(req,res){
-  iformapi.post(ifbConfig, req, res)
-});
-
-app.put('/api/*', function(req,res){
-  iformapi.put(ifbConfig, req, res)
-});
-
-app.delete('/api/*', function(req,res){
-  iformapi.delete(ifbConfig, req, res)
-});
-
-app.post('/token', function(req,res){
-  iformapi.getToken(ifbConfig, req, res)
-});
-
+const iformApi = new IformAPI(ifbConfig);
+app.use('/iform', iformApi.router)
 
 
 app.listen(3000, function() {

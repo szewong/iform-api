@@ -63,7 +63,7 @@
 				"Timeout": "25",
 				"Code": {
 					"S3Bucket": "iform-api-dev-20191210155317-deployment",
-					"S3Key": "amplify-builds/iformapi-6a4f7569586170536f47-build.zip"
+					"S3Key": "amplify-builds/iformapi-5956356b7a4d7055526d-build.zip"
 				}
 			}
 		},

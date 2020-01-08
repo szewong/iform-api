@@ -1,21 +1,14 @@
 {
     "paths": [
         {
-            "name": "/token",
-            "lambdaFunction": "iformapi",
-            "privacy": {
-                "open": true
-            }
-        },
-        {
-            "name": "/api",
-            "lambdaFunction": "iformapi",
-            "privacy": {
-                "open": true
-            }
-        },
-        {
             "name": "/echo",
+            "lambdaFunction": "iformapi",
+            "privacy": {
+                "open": true
+            }
+        },
+        {
+            "name": "/iform",
             "lambdaFunction": "iformapi",
             "privacy": {
                 "open": true
@@ -45,5 +38,5 @@
             ]
         }
     ],
-    "uuid": "3d32de67"
+    "uuid": "f520ce67"
 }

@@ -9,6 +9,7 @@
     "aws-amplify": "^2.2.0",
     "aws-amplify-react": "^3.1.1",
     "axios": "^0.19.0",
+    "iformapi-lambda": "file:../iformapi-lambda",
     "qs": "^6.9.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
